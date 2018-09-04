@@ -36,7 +36,7 @@ class Rare implements Listener
         $item = $event->getItem();
         $name = $player->getName();
         $block = $event->getBlock();
-        $chance = mt_rand(0,1780);
+        $chance = mt_rand(0,178);
 
         if($block->getId() === 1){
             if($chance === 1){

@@ -111,6 +111,7 @@ class Ancient implements Listener
 
             $player->getInventory()->addItem($tobegiven1[$rand1]);
             $player->sendMessage(TF::LIGHT_PURPLE . "Opening Relic..");
+            $event->setCancelled();
             $player->getInventory()->removeItem($relic);
             break;
         }

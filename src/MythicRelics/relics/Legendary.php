@@ -36,7 +36,7 @@ class Legendary implements Listener
         $item = $event->getItem();
         $name = $player->getName();
         $block = $event->getBlock();
-        $chance = mt_rand(0,2500);
+        $chance = mt_rand(0,250);
 
         if($block->getId() === 1){
             if($chance === 1){

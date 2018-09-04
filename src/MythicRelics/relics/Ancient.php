@@ -36,7 +36,7 @@ class Ancient implements Listener
         $item = $event->getItem();
         $name = $player->getName();
         $block = $event->getBlock();
-        $chance = mt_rand(0,780);
+        $chance = mt_rand(0,78);
 
         if($block->getId() === 1){
             if($chance === 1){

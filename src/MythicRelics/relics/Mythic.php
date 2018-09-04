@@ -36,7 +36,7 @@ class Mythic implements Listener
         $item = $event->getItem();
         $name = $player->getName();
         $block = $event->getBlock();
-        $chance = mt_rand(0,5000);
+        $chance = mt_rand(0,500);
 
         if($block->getId() === 1){
             if($chance === 1){

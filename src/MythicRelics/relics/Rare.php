@@ -69,38 +69,38 @@ class Rare implements Listener
             $relic = Item::get(54, 102, 1);
             $item1 = Item::get(310, 0, 1);
             $item1->setCustomName(TF::RED . "Rare" . TF::GRAY . "Helmet");
-            $item1->addEnchantment(new EnchantmentInstance($prot, 2));
-            $item1->addEnchantment(new EnchantmentInstance($unb, 2));
+            $item1->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item1->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item2 = Item::get(311, 0, 1);
             $item2->setCustomName(TF::RED . "Rare" . TF::GRAY . "Chestplate");
-            $item2->addEnchantment(new EnchantmentInstance($prot, 2));
-            $item2->addEnchantment(new EnchantmentInstance($unb, 2));
+            $item2->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item2->addEnchantment(new EnchantmentInstance($unb, 5));
             
             $item3 = Item::get(312, 0, 1);
             $item3->setCustomName(TF::RED . "Rare" . TF::GRAY . "Leggings");
-            $item3->addEnchantment(new EnchantmentInstance($prot, 2));
-            $item3->addEnchantment(new EnchantmentInstance($unb, 2));
+            $item3->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item3->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item4 = Item::get(313, 0, 1);
             $item4->setCustomName(TF::RED . "Rare" . TF::GRAY . "Boots");
-            $item4->addEnchantment(new EnchantmentInstance($prot, 2));
-            $item4->addEnchantment(new EnchantmentInstance($unb, 2));
+            $item4->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item4->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $sword = Item::get(276, 0, 1);
             $sword->setCustomName(TF::RED . "Rare" . TF::GRAY . "Sword");
-            $sword->addEnchantment(new EnchantmentInstance($sharp, 2));
-            $sword->addEnchantment(new EnchantmentInstance($unb, 2));
+            $sword->addEnchantment(new EnchantmentInstance($sharp, 10));
+            $sword->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $pickaxe = Item::get(278, 0, 1);
             $pickaxe->setCustomName(TF::RED . "Rare" . TF::GRAY . "Pickaxe");
-            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 2));
-            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 2));
+            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 10));
+            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $axe = Item::get(279, 0, 1);
             $axe->setCustomName(TF::RED . "Rare" . TF::GRAY . "Axe");
-            $axe->addEnchantment(new EnchantmentInstance($eff, 2));
-            $axe->addEnchantment(new EnchantmentInstance($unb, 2));
+            $axe->addEnchantment(new EnchantmentInstance($eff, 10));
+            $axe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $diamond = Item::get(264, 0, 8);
             $iron = Item::get(265, 0, 32);

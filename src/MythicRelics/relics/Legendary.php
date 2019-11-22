@@ -69,38 +69,38 @@ class Legendary implements Listener
             $relic = Item::get(54, 103, 1);
             $item1 = Item::get(310, 0, 1);
             $item1->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Helmet");
-            $item1->addEnchantment(new EnchantmentInstance($prot, 3));
-            $item1->addEnchantment(new EnchantmentInstance($unb, 3));
+            $item1->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item1->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item2 = Item::get(311, 0, 1);
             $item2->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Chestplate");
-            $item2->addEnchantment(new EnchantmentInstance($prot, 3));
-            $item2->addEnchantment(new EnchantmentInstance($unb, 3));
+            $item2->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item2->addEnchantment(new EnchantmentInstance($unb, 5));
             
             $item3 = Item::get(312, 0, 1);
             $item3->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Leggings");
-            $item3->addEnchantment(new EnchantmentInstance($prot, 3));
-            $item3->addEnchantment(new EnchantmentInstance($unb, 3));
+            $item3->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item3->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item4 = Item::get(313, 0, 1);
             $item4->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Boots");
-            $item4->addEnchantment(new EnchantmentInstance($prot, 3));
-            $item4->addEnchantment(new EnchantmentInstance($unb, 3));
+            $item4->addEnchantment(new EnchantmentInstance($prot, 10));
+            $item4->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $sword = Item::get(276, 0, 1);
             $sword->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Sword");
-            $sword->addEnchantment(new EnchantmentInstance($sharp, 3));
-            $sword->addEnchantment(new EnchantmentInstance($unb, 3));
+            $sword->addEnchantment(new EnchantmentInstance($sharp, 10));
+            $sword->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $pickaxe = Item::get(278, 0, 1);
             $pickaxe->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Pickaxe");
-            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 3));
-            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 3));
+            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 10));
+            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $axe = Item::get(279, 0, 1);
             $axe->setCustomName(TF::LIGHT_PURPLE . "Mythic" . TF::GRAY . "Axe");
-            $axe->addEnchantment(new EnchantmentInstance($eff, 3));
-            $axe->addEnchantment(new EnchantmentInstance($unb, 3));
+            $axe->addEnchantment(new EnchantmentInstance($eff, 10));
+            $axe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $diamond = Item::get(264, 0, 64);
             $iron = Item::get(265, 0, 256);

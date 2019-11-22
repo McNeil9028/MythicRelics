@@ -69,38 +69,38 @@ class Ancient implements Listener
             $relic = Item::get(54, 101, 1);
             $item1 = Item::get(310, 0, 1);
             $item1->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Helmet");
-            $item1->addEnchantment(new EnchantmentInstance($prot, 1));
-            $item1->addEnchantment(new EnchantmentInstance($unb, 1));
+            $item1->addEnchantment(new EnchantmentInstance($prot, 5));
+            $item1->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item2 = Item::get(311, 0, 1);
             $item2->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Chestplate");
-            $item2->addEnchantment(new EnchantmentInstance($prot, 1));
-            $item2->addEnchantment(new EnchantmentInstance($unb, 1));
+            $item2->addEnchantment(new EnchantmentInstance($prot, 5));
+            $item2->addEnchantment(new EnchantmentInstance($unb, 5));
             
             $item3 = Item::get(312, 0, 1);
             $item3->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Leggings");
-            $item3->addEnchantment(new EnchantmentInstance($prot, 1));
-            $item3->addEnchantment(new EnchantmentInstance($unb, 1));
+            $item3->addEnchantment(new EnchantmentInstance($prot, 5));
+            $item3->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $item4 = Item::get(313, 0, 1);
             $item4->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Boots");
-            $item4->addEnchantment(new EnchantmentInstance($prot, 1));
-            $item4->addEnchantment(new EnchantmentInstance($unb, 1));
+            $item4->addEnchantment(new EnchantmentInstance($prot, 5));
+            $item4->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $sword = Item::get(276, 0, 1);
             $sword->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Sword");
-            $sword->addEnchantment(new EnchantmentInstance($sharp, 1));
-            $sword->addEnchantment(new EnchantmentInstance($unb, 1));
+            $sword->addEnchantment(new EnchantmentInstance($sharp, 5));
+            $sword->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $pickaxe = Item::get(278, 0, 1);
             $pickaxe->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Pickaxe");
-            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 1));
-            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 1));
+            $pickaxe->addEnchantment(new EnchantmentInstance($eff, 5));
+            $pickaxe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $axe = Item::get(279, 0, 1);
             $axe->setCustomName(TF::AQUA . "Ancient" . TF::GRAY . "Axe");
-            $axe->addEnchantment(new EnchantmentInstance($eff, 1));
-            $axe->addEnchantment(new EnchantmentInstance($unb, 1));
+            $axe->addEnchantment(new EnchantmentInstance($eff, 5));
+            $axe->addEnchantment(new EnchantmentInstance($unb, 5));
 
             $diamond = Item::get(264, 0, 4);
             $iron = Item::get(265, 0, 16);
